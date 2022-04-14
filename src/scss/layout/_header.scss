@@ -1,5 +1,28 @@
-.page__header {
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: rgb(23, 141, 141);
+}
+.container__btn--save {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.container__btn--recovery {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 10px;
+}
+.button {
+  background-color: #4c8eaf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }

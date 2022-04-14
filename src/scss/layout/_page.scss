@@ -1,7 +1,18 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url('../images/bg-adalab.png');
-  background-color: $color-bg;
-  font-family: $font-main;
+.container1 {
+  background-color: pink;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
+}
+.container2 {
+  background-color: rgb(110, 151, 233);
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px;
 }

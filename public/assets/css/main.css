@@ -3,42 +3,56 @@
   margin: 0;
   padding: 0; }
 
-.code {
-  font-size: 16px;
-  background: #d8d8d8;
-  padding: 0 5px;
-  border-radius: 5px; }
+.container1 {
+  background-color: pink;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px; }
 
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff; }
+.container2 {
+  background-color: #6e97e9;
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  padding-bottom: 20px; }
 
-.link__github:hover {
-  background-color: #CCC;
-  color: #000; }
+.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: #178d8d; }
 
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-image: url("../images/bg-adalab.png");
-  background-color: #f3f4f5;
-  font-family: "Roboto", sans-serif; }
-
-.page__header {
+.container__btn--save {
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem; }
+  flex-direction: row-reverse;
+  justify-content: center; }
+
+.container__btn--recovery {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 10px; }
+
+.button {
+  background-color: #4c8eaf;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
 
 .page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: #999; }
-
-.main__list {
-  padding-left: 2rem;
-  padding-bottom: 20px; }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  color: grey;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

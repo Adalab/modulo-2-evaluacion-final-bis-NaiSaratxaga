@@ -1,8 +1,8 @@
 'use strict';
 
 const url = `https://randomuser.me/api/?results=10`;
-
-const list = document.querySelector('.js_list');
+const resultListElement = document.querySelector('.js_list');
+const results = [];
 
 function paintHTML(contacts) {
   for (const contact of contacts) {
@@ -20,15 +20,15 @@ function paintHTML(contacts) {
         ${contact.login.username} 
       </div>
     </li>`;
-    list.innerHTML += li;
+    resultListElement.innerHTML += li;
   }
 }
 
 fetch(url)
   .then((response) => response.json())
   .then((data) => {
-    const allResult = data.results;
-    paintHTML(allResult);
+    results = data.results;
+    paintHTML(results);
   });
 
 //# sourceMappingURL=main.js.map

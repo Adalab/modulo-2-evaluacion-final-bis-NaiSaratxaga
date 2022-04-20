@@ -5,7 +5,7 @@
   list-style: none; }
 
 .container1 {
-  background-color: pink;
+  background-color: #ebe5e6;
   margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
@@ -16,23 +16,15 @@
 .userName {
   padding-bottom: 20px; }
 
+.isFriend {
+  background-color: pink; }
+
 .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   font-weight: 600;
   text-align: center;
   color: #178d8d; }
-
-.container__btn--save {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center; }
-
-.container__btn--recovery {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  margin: 10px; }
 
 .button {
   background-color: #4c8eaf;
@@ -43,6 +35,12 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px; }
+
+.buttons_position {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column; }
 
 .page__footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

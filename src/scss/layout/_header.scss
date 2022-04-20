@@ -5,17 +5,7 @@
   text-align: center;
   color: rgb(23, 141, 141);
 }
-.container__btn--save {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-}
-.container__btn--recovery {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  margin: 10px;
-}
+
 .button {
   background-color: #4c8eaf;
   border: none;
@@ -25,4 +15,10 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+.buttons_position {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
 }

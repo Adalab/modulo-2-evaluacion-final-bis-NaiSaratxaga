@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
@@ -15,10 +21,11 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 .buttons_position {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  flex-direction: column;
 }

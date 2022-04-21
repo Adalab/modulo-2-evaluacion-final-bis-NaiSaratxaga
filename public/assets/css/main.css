@@ -4,20 +4,36 @@
   padding: 0;
   list-style: none; }
 
-.container1 {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: flex-start;
   background-color: #ebe5e6;
   margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: #433d3d;
   padding: 20px; }
+
+.user_card {
+  padding: 20px;
+  cursor: pointer; }
 
 .userName {
   padding-bottom: 20px; }
 
 .isFriend {
   background-color: pink; }
+
+.image {
+  border-radius: 30px; }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; }
 
 .title {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -34,13 +50,14 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px; }
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer; }
 
 .buttons_position {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
-  flex-direction: column; }
+  align-items: flex-end; }
 
 .page__footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;

@@ -11,9 +11,9 @@ function paintHTML(users) {
   usersListElement.innerHTML = ''; // quitar elementos antiguos y poner nuevos//
   for (const user of users) {
     const friendClassName = user.isFriend ? 'isFriend' : '';
-    const li = `<li class="js_listUser ${friendClassName}" id="${user.login.uuid}">
+    const li = `<li class="user_card js_listUser  ${friendClassName}" id="${user.login.uuid}">
       <div class="image" >
-        <img src="${user.picture.medium}" alt="contact picture" title="contact picture"/> 
+        <img src="${user.picture.medium}" class="image" alt="contact picture" title="contact picture"/> 
       </div>
       <div class="name">
         ${user.name.first} ${user.name.last} 

@@ -1,11 +1,20 @@
-.container1 {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-content: flex-start;
   background-color: rgb(235, 229, 230);
   margin: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   text-align: center;
-  color: white;
+  color: rgb(67, 61, 61);
   padding: 20px;
+}
+
+.user_card {
+  padding: 20px;
+  cursor: pointer;
 }
 
 .userName {
@@ -14,4 +23,8 @@
 
 .isFriend {
   background-color: pink;
+}
+
+.image {
+  border-radius: 30px;
 }

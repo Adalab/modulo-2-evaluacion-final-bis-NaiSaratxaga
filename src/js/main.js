@@ -26,7 +26,6 @@ function paintHTML(users) {
       </div>
     </li>`;
     usersListElement.innerHTML += li;
-
     subscribe();
   }
 }
@@ -68,10 +67,15 @@ function handleClickUser(event) {
 //-----PUNTO 3----//
 /* guardar/recuperar de local Local Storage / GET Y SET*/
 
-/*
- 
-const savedUsers = localStorage.getItem('users');
-if (savedUsers) {
-  setUsers(savedUsers);
-  const listUserSaved = document.querySelector();
-} */
+function saveUsers() {
+  localStorage.setItem('users', JSON.stringify(users));
+}
+
+function loadUsers() {
+  const usersString = localStorage.getItem('users');
+  users = JSON.parse(usersString);
+  paintHTML(users);
+}
+
+buttonSave.addEventListener('click', saveUsers);
+buttonRecover.addEventListener('click', loadUsers);

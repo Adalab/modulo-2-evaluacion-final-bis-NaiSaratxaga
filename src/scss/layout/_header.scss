@@ -1,3 +1,9 @@
+.logo__header {
+  width: 150px;
+  height: 150px;
+  margin: 8px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -5,15 +11,15 @@
 }
 
 .title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 40px;
-  font-weight: 600;
+  font-family: $font-main;
+  font-size: 150px;
+  font-weight: $font-medium;
   text-align: center;
-  color: rgb(23, 141, 141);
+  color: $color-title;
 }
 
 .button {
-  background-color: #4c8eaf;
+  background-color: $color-title;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -26,6 +32,9 @@
 }
 .buttons_position {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 36px;
+  margin-bottom: 0px;
 }

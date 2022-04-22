@@ -3,17 +3,21 @@
   grid-template-columns: 1fr 1fr;
   align-content: center;
   justify-content: flex-start;
-  background-color: rgb(235, 229, 230);
+  background-color: $color-bg;
   margin: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: $font-main;
   font-size: 20px;
+  font-weight: $font-medium;
   text-align: center;
-  color: rgb(67, 61, 61);
+  color: $color-text;
   padding: 20px;
 }
 
 .user_card {
   padding: 20px;
+  width: 50%;
+  margin: 10px auto;
+  border-radius: 15px;
   cursor: pointer;
 }
 
@@ -22,7 +26,8 @@
 }
 
 .isFriend {
-  background-color: pink;
+  background-color: $background-color-friend;
+  color: $color-friend;
 }
 
 .image {

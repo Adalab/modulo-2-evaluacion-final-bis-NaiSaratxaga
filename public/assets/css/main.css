@@ -11,9 +11,6 @@
   justify-content: flex-start;
   background-color: #f3f4f5;
   margin: 20px;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  font-weight: Regular 400;
   text-align: center;
   color: #4a4646;
   padding: 20px; }
@@ -35,6 +32,21 @@
 .image {
   border-radius: 30px; }
 
+.name {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900; }
+
+.city {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600; }
+
+.userName {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
 .logo__header {
   width: 150px;
   height: 150px;
@@ -48,7 +60,7 @@
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 150px;
-  font-weight: Regular 400;
+  font-weight: 600;
   text-align: center;
   color: #4c8eaf; }
 
@@ -60,7 +72,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 10px;
   cursor: pointer; }
 

@@ -6,12 +6,12 @@
   amigos.
 - El ejercicio también tiene una parte de maquetación con HTML y Sass.
 
-**Vamos a utilizar https://randomuser.me/ que nos devuelve un listado de usuarios al azar.**
+**Vamos a utilizar esta [API](https://randomuser.me/) que nos devuelve un listado de usuarios al azar.**
 
 1. **Listado de usuarios:**
 
    - Cada vez que se arranca la página hay que obtener 10 usuarios al azar llamando a esta API:
-     https://randomuser.me/api/?results=10
+     [API](https://randomuser.me/api/?results=10)
    - Limpiar los datos que nos vienen de la API y quedarnos solo con la información que nos interese.
    - Guardar los datos de los usuarios en un array.
    - Pintar el listado de usuarios con nombre, ciudad, foto y nombre de usuario en pantalla.
@@ -43,6 +43,8 @@ fácil todo el desarrollo.
 ```
 
 # Donde se puede ver 👀
+
+[Pulsar aquí](http://beta.adalab.es/modulo-2-evaluacion-final-bis-NaiSaratxaga/)
 
 # Este proyecto ha sido desarrollado con:
 
@@ -76,4 +78,5 @@ npm start
 npm run docs
 ```
 
-Autora: <nsaratxaga@gmail.com>
+**Autora:**
+[Naiara Saratxaga](https://github.com/NaiSaratxaga)

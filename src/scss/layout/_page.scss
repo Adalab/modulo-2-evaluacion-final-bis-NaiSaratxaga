@@ -5,9 +5,6 @@
   justify-content: flex-start;
   background-color: $color-bg;
   margin: 20px;
-  font-family: $font-main;
-  font-size: 20px;
-  font-weight: $font-medium;
   text-align: center;
   color: $color-text;
   padding: 20px;
@@ -32,4 +29,21 @@
 
 .image {
   border-radius: 30px;
+}
+
+.name {
+  font-size: 30px;
+  font-family: $font-main;
+  font-weight: $font-bold;
+}
+
+.city {
+  font-size: 25px;
+  font-family: $font-main;
+  font-weight: $font-medium;
+}
+.userName {
+  font-size: 22px;
+  font-family: $font-main;
+  font-weight: $font-regular;
 }

@@ -7,6 +7,8 @@ const buttonRecover = document.querySelector('.js_buttonRecover');
 
 let users = [];
 
+//con esta función pinto toda la info del listado de usuarios
+
 function paintHTML(users) {
   usersListElement.innerHTML = ''; // quitar elementos antiguos y poner nuevos//
   for (const user of users) {
@@ -26,17 +28,19 @@ function paintHTML(users) {
       </div>
     </li>`;
     usersListElement.innerHTML += li;
-    subscribe();
+    addListeners();
   }
 }
-
-function subscribe() {
+//escuchar click asociado a todos los elementos de la lista, function addListeners//
+//También se podría hacer un  for of// for (const item of listElements){item.addEventListener('click', handleClickUser)} //
+function addListeners() {
   const listElements = document.querySelectorAll('.js_listUser');
   listElements.forEach((listElement) => {
     listElement.addEventListener('click', handleClickUser);
   });
 }
 
+//En el fetch guardo la variable users y llamo a la función paintHtml
 fetch(url)
   .then((response) => response.json())
   .then((data) => {

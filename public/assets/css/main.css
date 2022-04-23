@@ -86,8 +86,15 @@
 
 .page__footer {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
+  font-size: 30px;
+  font-weight: 900;
   color: #999;
-  text-align: center; }
+  text-align: center;
+  margin: 30px; }
+
+.link {
+  text-decoration: none;
+  font-weight: 900;
+  color: #ee4684; }
 
 /*# sourceMappingURL=main.css.map */

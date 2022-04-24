@@ -13,7 +13,8 @@
   margin: 20px;
   text-align: center;
   color: #4a4646;
-  padding: 20px; }
+  padding: 20px;
+  border-radius: 15px; }
 
 .user_card {
   padding: 20px;
@@ -59,10 +60,11 @@
 
 .title {
   font-family: "Roboto", sans-serif;
-  font-size: 150px;
+  font-size: 120px;
   font-weight: 600;
   text-align: center;
-  color: #4c8eaf; }
+  color: #4c8eaf;
+  margin: 20px; }
 
 .button {
   background-color: #4c8eaf;
@@ -74,7 +76,13 @@
   display: inline-block;
   font-size: 20px;
   margin-left: 10px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 15px; }
+
+.button:hover {
+  background-color: #ee4684;
+  color: white; }
 
 .buttons_position {
   display: flex;

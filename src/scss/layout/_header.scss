@@ -12,10 +12,11 @@
 
 .title {
   font-family: $font-main;
-  font-size: 150px;
+  font-size: 120px;
   font-weight: $font-medium;
   text-align: center;
   color: $color-title;
+  margin: 20px;
 }
 
 .button {
@@ -29,6 +30,12 @@
   font-size: 20px;
   margin-left: 10px;
   cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 15px;
+}
+.button:hover {
+  background-color: $background-color-friend;
+  color: white;
 }
 .buttons_position {
   display: flex;

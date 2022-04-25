@@ -41,12 +41,16 @@ function addListeners() {
 }
 
 //En el fetch guardo la variable users y llamo a la función paintHtml
-fetch(url)
-  .then((response) => response.json())
-  .then((data) => {
-    users = data.results;
-    paintHTML(users);
-  });
+
+function callToApi() {
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      users = data.results;
+      paintHTML(users);
+    });
+}
+callToApi();
 
 //-----PUNTO 2----//
 //en el objeto del usuario clickado dentro del array, añadir una propiedad *//
@@ -77,8 +81,11 @@ function saveUsers() {
 
 function loadUsers() {
   const usersString = localStorage.getItem('users');
-  users = JSON.parse(usersString);
-  paintHTML(users);
+  console.log(usersString);
+  if (usersString !== null) {
+    users = JSON.parse(usersString);
+    paintHTML(users);
+  }
 }
 
 buttonSave.addEventListener('click', saveUsers);
